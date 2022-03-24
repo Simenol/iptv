@@ -1,4 +1,22 @@
 #EXTM3U
+#EXTINF:-1 ,Первый канал.Всемирная сеть
+https://sc.id-tv.kz/1KanalVsemSet_36_37.m3u8
+
+#EXTINF:-1 ,НТВ Мир
+http://92.46.127.146:8080/ntv/index.m3u8
+
+#EXTM3U
+#EXTINF:-1,Мосфильм Золотая Коллекция HD
+http://50.7.231.220:8081/235/index.m3u8?wmsAuthSign=okad
+
+#EXTINF:-1,Наше Любимое Кино
+#EXTGRP:Кино
+http://50.7.231.220:8081/236/index.m3u8?wmsAuthSign=okad
+
+#EXTINF:-1,РУССКИЙ ИЛЛЮЗИОН
+#EXTGRP:Кино
+http://86.57.178.105:10823
+
 #EXTINF:0,Первый канал
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
 #EXTINF:-1,Первый канал (+1)
