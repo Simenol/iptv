@@ -1,73 +1,346 @@
-#EXTM3U
-#EXTINF:-1 ,Первый канал.Всемирная сеть
-https://sc.id-tv.kz/1KanalVsemSet_36_37.m3u8
-#EXTINF:-1 ,НТВ Мир
-http://92.46.127.146:8080/ntv/index.m3u8
-#EXTINF:-1,Мосфильм Золотая Коллекция HD
-http://50.7.231.220:8081/235/index.m3u8?wmsAuthSign=okad
-#EXTINF:-1,Наше Любимое Кино
-http://50.7.231.220:8081/236/index.m3u8?wmsAuthSign=okad
-#EXTINF:-1,РУССКИЙ ИЛЛЮЗИОН
-http://86.57.178.105:10823
-#EXTINF:0,Первый канал
-http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
-#EXTINF:-1,Первый канал (+1)
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8?version=2
-#EXTINF:-1,Россия 1
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 1 HD
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1,Россия 24 HD
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-#EXTINF:-1,Россия 24
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия РТР
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
-#EXTINF:-1,Россия К
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,НТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,ТНТ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,ТНТ4
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,ТВ Центр
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,РЕН ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Рен ТВ HD
-http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
-#EXTINF:-1,СТС
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Первый Российский Национальный
-http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
-#EXTINF:-1,Мосфильм Золотая Коллекция HD
-http://109.239.128.126:8080/mosfilm/tracks-v2a1/mono.m3u8
-#EXTINF:-1,Мосфільм Золота Колекція FHD
-http://31.131.191.7:8000/play/a054
-#EXTINF:-1,Ностальгия
-http://188.232.102.173:9981/stream/channelid/587689351
-#EXTINF:-1,ТВЦ
-http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
-#EXTINF:-1,ТВЦ Int
-http://46.34.209.243/btv/SWM/TVCentr/TVCentr_576p_2000kbps.m3u8
-#EXTINF:-1,ДОМ КИНО
-http://46.34.209.243/btv/SWM/Dom_Kino/Dom_Kino_576p_2000kbps.m3u8
-#EXTINF:-1,Мир HD
+#EXTM3U #EXTM3U
+
+#EXTINF:-1 ,ТВЦ
+https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+#EXTINF:-1, Россия 24
+http://flu.ttk.mx:9090/Rossiya24/index.m3u8?token=orh6o
+#EXTINF:-1, НТВ
+http://flu.ttk.mx:9090/NTV/index.m3u8?token=orh6o
+#EXTINF:-1, НТВ HD
+http://flu.ttk.mx:9090/NTV_HD/index.m3u8?token=orh6o
+#EXTINF:-1, РЕН ТВ
+http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
+#EXTINF:-1, СТС
+http://flu.ttk.mx:9090/STS/index.m3u8?token=orh6o
+#EXTINF:-1,Беларусь 2 (playlist-iptv.ru)
+http://82.209.201.57:7001/play/a008 
+
+#EXTINF:-1 ,ОСН
+https://osnmedia.servicecdn.ru/streams/17603_88089/1080n/index.m3u8
+
+#EXTINF:-1 ,Эхо ТВ 24
+http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
+
+#EXTINF:-1 ,ТСВ
+https://iptv-hls.idc.md/hls/2/live2.m3u8
+
+#EXTINF:-1 ,ТРК 555 HD
+http://trk555.tv:8888/live
+
+#EXTINF:-1 ,БСТ
+https://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
+
+#EXTINF:-1 ,Совершенно секретно
+https://live-sovsec.cdnvideo.ru/sovsec/sovsec.smil/playlist.m3u8
+
+#EXTINF:-1 ,Аист ТВ
+https://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
+
+#EXTINF:-1 ,НТМ HD
+http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+
+#EXTINF:-1 ,Мир Premium HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1,Мир (+4)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
-#EXTINF:0,Мир Premium
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
-#EXTINF:0,Мир 24 HD 
+
+#EXTINF:-1 ,МИР 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1,Беларусь 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
-#EXTINF:-1,Карапуз ТВ
-http://85.10.202.119/content/karapuztv/index.m3u8
-#EXTINF:-1,Карусель
-http://37.99.5.234/btv/SWM/Karusel/Karusel_576p_2000kbps.m3u8
-#EXTINF:-1,Disney канал
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,В Гостях У Сказки
-http://37.235.186.113:81/udp/225.50.64.45:1234
+
+#EXTINF:-1 ,НТМ
+https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+
+#EXTINF:-1, Новый век (Тамбов)
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
+
+#EXTINF:-1, Прима
+http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_Prima/hls/1920x1080@4504/playlist.m3u8
+
+#EXTINF:-1, Репортер 73
+https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_reporter73/hls/1920x1080@4504/playlist.m3u8
+
+#EXTINF:-1, WORLD HD
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+
+
+
+#EXTINF:-1, Дом кино
+http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
+
+
+#EXTINF:-1 group-title="KINO+",CBC
+rtmp://93.189.60.202//1050
+
+#EXTINF:-1 group-title="KINO+",1+2
+http://89.254.128.5:22280/1_2/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",ТНТ 
+http://91.197.104.34:8080/TNTHD/video.m3u8
+#EXTINF:-1 group-title="KINO+",ТНТ HD
+https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
+#EXTINF:-1 group-title="KINO+",ТНТ4 HD
+https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
+
+#EXTINF:-1 group-title="KINO+",Домашний
+http://195.3.252.117:8001/play/a006
+#EXTINF:-1 group-title="KINO+",Домашний HD
+https://s12.federal.tv:8082/feda/domashniy.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",СТС
+http://45.159.74.13:80/CTC/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+",СТС HD
+http://91.197.104.34:8080/CTCHD/video.m3u8
+#EXTINF:-1 group-title="KINO+",СТС hd
+http://195.3.252.117:8001/play/a005
+
+#EXTINF:-1 group-title="KINO+",ПЯТНИЦА HD
+http://91.197.104.34:8080/friday/video.m3u8
+
+#EXTINF:-1 group-title="KINO+",2x2
+https://s12.federal.tv:8082/feda/dvatv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",НОСТАЛЬГИЯ
+http://91.197.104.34:8080/Nostalgy/video.m3u8
+#EXTINF:-1 group-title="KINO+",НОСТАЛЬГИЯ HD
+https://tbs01-edge11.itdc.ge/nostalgy/tracks-v1a1/mono.m3u8
+
+
+
+
+
+#фильмы
+#EXTINF:-1 group-title="KINO+",Советское кино
+https://cdn-cache01.voka.tv:443/live/3018.m3u8
+
+#EXTINF:-1 group-title="KINO+",КИНОХИТ HD
+https://cdn-cache01.voka.tv:443/live/70.m3u8
+#EXTINF:-1 group-title="KINO+",Кинохит
+http://streamer1.ruslanatv.ru/russia/kinohit_2023/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",КИНОХИТ hd
+https://tbs01-edge11.itdc.ge/kinohit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Наше новое кино HD
+https://cdn-cache01.voka.tv:443/live/75.m3u8
+#EXTINF:-1 group-title="KINO+",НАШЕ НОВОЕ КИНО
+http://91.197.104.34:8080/NasheNovoeKino/video.m3u8
+
+#EXTINF:-1 group-title="KINO+",Дом Кино Премиум HD
+http://46.151.151.245:10007/play/a009
+#EXTINF:-1 group-title="KINO+",ДОМ КИНО ПРЕМИУМ
+https://tbs01-edge11.itdc.ge/domkinopremium/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Дом кино
+https://s12.federal.tv:8082/feda/domkino.stream/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",ДОМ КИНО
+http://streamer1.ruslanatv.ru/russia/dom_kino_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",RU иллюзион
+https://cdn-cache01.voka.tv:443/live/616.m3u8
+
+#EXTINF:-1 group-title="KINO+",Любимое Кино
+http://91.233.215.250:7272/JS7lUbMstASMl0r
+
+#EXTINF:-1 group-title="KINO+",Золотая коллекция
+http://46.151.151.245:10002/play/a0bi
+
+#EXTINF:-1 group-title="KINO+",Родное кино
+https://cdn-cache01.voka.tv:443/live/80.m3u8
+
+#EXTINF:-1 group-title="KINO+",ФЕНИКС+КИНО 
+https://tbs01-edge11.itdc.ge/fenixkino/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Кино 1 International HD
+http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",РЕТРО HD
+https://cdn-cache01.voka.tv:443/live/335.m3u8
+
+#EXTINF:-1 group-title="KINO+",Olsib TV
+http://46.18.107.105:8409/iptv/channel/1.m3u8
+#EXTINF:-1 group-title="KINO+",Olsib TV
+http://46.18.107.105:8409/iptv/channel/1.m3u8
+
+#EXTINF:-1 group-title="KINO+",Киномикс HD
+http://91.197.104.34:8080/Kinomix/video.m3u8
+#EXTINF:-1 group-title="KINO+",КИНОМИКС HD
+http://45.11.139.43:8081/stream/kinomiks/hls/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",КИНОМИКС
+http://streamer1.ruslanatv.ru/russia/kinomix_sd_2023/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",Киномикс HD +
+https://cdn-cache01.voka.tv:443/live/71.m3u8
+
+#EXTINF:-1 group-title="KINO+",КИНОМАН HD
+http://45.159.74.13:80/Kinoman/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Киносемья HD
+https://cdn-cache01.voka.tv:443/live/72.m3u8
+#EXTINF:-1 group-title="KINO+",Киносемья hd
+http://streamer1.ruslanatv.ru/russia/kinosemya_sd_new_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Киносвидание HD
+https://cdn-cache01.voka.tv:443/live/77.m3u8
+#EXTINF:-1 group-title="KINO+",КИНОСВИДАНИЕ
+http://streamer1.ruslanatv.ru/russia/kinosvidanie_sd_new_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Кинокомедия HD
+https://cdn-cache01.voka.tv:443/live/2116.m3u8
+#EXTINF:-1 group-title="KINO+",Кинокомедия
+http://streamer1.ruslanatv.ru/russia/kinokomediya_sd_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Киносерия HD
+https://cdn-cache01.voka.tv:443/live/79.m3u8
+
+#EXTINF:-1 group-title="KINO+",Кино Боевик
+https://ucdn.beetv.kz/btv/live/hls/000008490.m3u8
+
+#EXTINF:-1 group-title="KINO+",Мировое кино
+https://ucdn.beetv.kz/btv/live/hls/000008488.m3u8
+
+#EXTINF:-1 group-title="KINO+",Премиум кино
+https://ucdn.beetv.kz/btv/live/hls/000008491.m3u8
+
+#EXTINF:-1 group-title="KINO+",ИЛЛЮЗИОН + HD
+https://cdn-cache01.voka.tv:443/live/603.m3u8
+#EXTINF:-1 group-title="KINO+",Иллюзион+
+https://tbs01-edge11.itdc.ge/illuzionplus/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+" ,Кино ТВ 
+http://31.148.48.15:80/Kino_TV/index.m3u8?token=test
+#EXTINF:-1 group-title="KINO+" ,КИНО ТВ HD
+http://89.104.114.32:8080/kino_tv_hd/mono.m3u8?token=DWEvjhKS3G
+
+#EXTINF:-1 group-title="KINO+" ,Кинопоказ HD
+http://31.148.48.15:80/Kinopokaz/index.m3u8?token=test
+#EXTINF:-1 group-title="KINO+" ,Кинопоказ 
+http://streamer1.ruslanatv.ru/russia/kinopokaz_sd_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Кино Сат
+https://cdn-cache01.voka.tv:443/live/59.m3u8
+
+#EXTINF:-1 group-title="KINO+",Kino 1
+http://91.233.215.250:7272/i0yRlKi4YlfGtF6
+
+#EXTINF:-1 group-title="KINO+",Viju TV1000 Action HD
+https://cdn-cache01.voka.tv:443/live/5106.m3u8
+
+#EXTINF:-1 group-title="KINO+",TV1000 ACTION
+https://tbs01-edge11.itdc.ge/tv1000act/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Viju TV1000 HD
+https://cdn-cache01.voka.tv:443/live/5107.m3u8
+#EXTINF:-1 group-title="KINO+",TV1000
+https://tbs01-edge11.itdc.ge/tv1000/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",TV 1000 Ру кино
+https://cdn-cache01.voka.tv:443/live/5109.m3u8
+
+#EXTINF:-1 group-title="KINO+",Viju TV1000 Р кино
+http://194.143.148.28:8080/TV1000RuKino/mpegts
+
+#EXTINF:-1 group-title="KINO+",Viasat Kino Comedy
+http://91.233.215.250:7272/5RqMvVnGzdoBQbf
+
+#EXTINF:-1 group-title="KINO+",Viju+ Comedy HD
+https://cdn-cache01.voka.tv:443/live/6003.m3u8
+
+#EXTINF:-1 group-title="KINO+",Viju+ Megahit HD
+https://cdn-cache01.voka.tv:443/live/6002.m3u8
+
+#EXTINF:-1 group-title="KINO+",Viju+ Premiere
+https://cdn-cache01.voka.tv:443/live/6001.m3u8
+
+#EXTINF:-1 group-title="KINO+",Viju+ Serial HD
+https://cdn-cache01.voka.tv:443/live/6004.m3u8
+#EXTINF:-1 group-title="KINO+",VIP Serial
+http://94.229.250.73:8008/play/a003
+
+#EXTINF:-1 group-title="KINO+",VIP HIT
+https://tbs01-edge11.itdc.ge/healthtv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",VIP FAMILY
+https://tbs01-edge11.itdc.ge/tv5/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Премиальное HD 
+http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Еврокино
+https://cdn-cache01.voka.tv:443/live/903.m3u8
+#EXTINF:-1 group-title="KINO+",Еврокино hd
+http://176.74.80.162:8099/EuroKino/index.m3u8
+
+#EXTINF:-1 group-title="KINO+",KINO LIVING
+http://95.67.12.89:9089
+#EXTINF:-1 group-title="KINO+",CINEMA
+https://tbs01-edge11.itdc.ge/park/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Дорама HD
+http://95.67.12.89:9037
+
+#EXTINF:-1 group-title="KINO+",ТВ3 HD 
+http://91.197.104.34:8080/tv3/video.m3u8
+#EXTINF:-1 group-title="KINO+",ТВ3 tva.org.ua
+https://s12.federal.tv:8082/feda/tvtritv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",SuperPlus
+http://91.233.215.250:7272/JkfGhb36Cvs7Fgz
+#EXTINF:-1 group-title="KINO+",Plan B
+http://31.148.6.4:10236/index.m3u8
+
+#EXTINF:-1 group-title="KINO+",НСТ tva.in.ua
+https://cdn-cache01.voka.tv:443/live/6008.m3u8
+#EXTINF:-1 group-title="KINO+",НСТ iptv.org.ua
+https://s12.federal.tv:8082/feda/nst.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",Hollywood
+https://cdn-cache01.voka.tv:443/live/5104.m3u8
+#EXTINF:-1 group-title="KINO+",Hollywood hd
+http://95.67.12.89:9016
+
+#EXTINF:-1 group-title="KINO+",NOW series
+http://185.235.187.11:8888/play/a03o/index.m3u8
+#EXTINF:-1 group-title="KINO+",Fox  
+https://stream01.vnet.am/Fox/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Fox Life
+http://45.132.87.69:8080/foxlife/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="KINO+",Fox Life HD
+http://95.67.12.89:9003
+#EXTINF:-1 group-title="KINO+",Fox Life hd
+http://185.37.150.40:8092/Fox_Life_HD/tracks-v1a1v1/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",A1 HD
+https://cdn-cache01.voka.tv:443/live/1500.m3u8
+#EXTINF:-1 group-title="KINO+",A1 
+http://31.148.48.15:80/A1/index.m3u8?token=test
+#EXTINF:-1 group-title="KINO+",Amedia 1 hd
+https://tbs01-edge11.itdc.ge/amedia/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+",Amedia 1 HD
+http://streamer1.ruslanatv.ru/russia/amedia_2023/playlist.m3u8
+
+#EXTINF:-1 group-title="KINO+",A2 HD
+https://cdn-cache01.voka.tv:443/live/171.m3u8
+#EXTINF:-1 group-title="KINO+",Amedia 2 hd
+https://tbs01-edge11.itdc.ge/tv3/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="KINO+",Amedia Hit HD
+https://cdn-cache01.voka.tv:443/live/1662.m3u8
+#EXTINF:-1 group-title="KINO+",Amedia hit
+https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+
+#EXTINF:-1 group-title="KINO+",Amedia Premium HD
+https://cdn-cache01.voka.tv:443/live/511.m3u8
+
+#EXTINF:-1 group-title="KINO+",Sci-Fi hd
+https://cdn-cache01.voka.tv:443/live/207.m3u8
+
+#EXTINF:-1 group-title="KINO+",Star Family HD
+rtmp://93.189.60.202//1042
+#EXTINF:-1 group-title="KINO+",Star Family UA
+http://95.67.12.89:9019
+
+#EXTINF:-1 group-title="KINO+",Filmbox 
+rtmp://93.189.60.202//948
+
+#EXTINF:-1 group-title="KINO+",Epic Drama
+rtmp://93.189.60.202//1048
+
+
+
